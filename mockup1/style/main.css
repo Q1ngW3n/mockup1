@@ -1,68 +1,169 @@
-article {
-    float: right;
-    width: 70%;
+body {
+    background-color: #f6f6f6;
 }
-.space{
-    margin: 30px;
+.container-fluid{
+    padding: 40px;
+}
+.col-12 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
 }
 .navbar-toggler {
+    width: 40px;
+    height: 40px;
     background-color: #fff;
-    padding: 10px;
-    text-align: center;
-    color: darkgrey;
+    border-radius: 6px;
 }
-.vnavbar{
-    float: left;
-    width: 30%;
+.navbar-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #8a8a8a;
 }
-.vnavbar button {
-    background-color: #7d42fc;
+.sidebar-image {
+    width: 65px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.para-styling {
+    color: #8a8a8a;
+    margin-top: -10px;
+    padding-bottom: 25px;
+}
+.sidebar button {
+    background-color: #776bff;
     color: #fff;
     text-align:left;
     border: none;
     border-radius: 8px;
-    padding: 10px;
-    width: 50%;
+    padding: 8px;
+    width: 70%;
     padding-left: 20px;
+    margin-bottom: 40px;
 }
-p {
-    color: #8a8a8a;
-}
-.vnavbar ul {
+.sidebar ul {
     list-style-type: none;
-    padding: 20px;
+    margin-left: -13px;
 }
-.vnavbar li a {
+.sidebar li a {
     color: #8a8a8a;
+    text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
-.vnavbar footer {
-    position: relative;
-    padding-top: 200px;
-    bottom: 0px;
-    margin: 0px;
+i{
+    padding-right: 8px;
 }
-i {
-    position: relative;
-    padding: 5px;
+.sidebar li i {
+    padding-bottom: 20px;
 }
-.container {
-    padding-top: 0px;
+.sidebar p {
+    padding-top: 10px;
+    color: #8a8a8a;
+}
+.sidebar footer {
+    margin-top: 70%;
+}
+.booking-article h2,
+.account-article h2 {
+    font-size: 250%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 50px;
+}
+.booking-article .header-styling,
+.account-article .header-styling {
+    color: #636363;
+    padding-bottom: 20px;
+}
+.booking-article a,
+.account-article a {
+    text-decoration: none;
+}
+.booking-article .article-styling {
+    margin-top: 30px;
     border-radius: 4px;
-    float: left;
-    width: 80%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
 }
-.column {
-    float: left;
-    width: 50%;
-    padding-bottom: 30px;
+.booking-article .row .col img {
+    margin-left: -13px;
 }
-.box {
+.booking-article .info-styling {
+    margin: 20px;
+}
+.booking-article .info-styling h4 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.booking-article .info-styling p {
+    color: #8a8a8a;
+    margin-bottom: 4px;
+}
+.booking-article .info-styling .line-styling {
+    margin-top: 50px;
+}
+.booking-article .info-styling hr {
+    color: #b8b8b8;
+}
+.booking-article .info-styling .row h5 {
+    margin-left: 25px;
+    font-size: 110%;
+    margin-bottom: 48px;
+}
+.booking-article .info-styling .bottom-styling {
+    background-color: #ebebeb;
+    margin-left: -46px;
+    padding-left: 46px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.topbar {
+
+.account-article .topbar-styling {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
     background-color: #fff;
-    padding: 20px;
+    padding-top: 30px;    
+    padding-left: 40px;
+}
+.account-article .topbar-styling p {
+    padding-left: 45px;
+}
+.account-article .article-styling {
+    margin-top: 30px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+}
+.account-article .article-styling .form-styling {
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.account-article .article-styling .form-styling label {
+    font-weight:500;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.account-article .article-styling .form-styling input,
+.form-styling select,
+.form-styling span {
+    padding: 10px;
+    border-color: #f6f6f6;
+}
+.account-article .article-styling .form-styling .number-styling {
+    margin-top: 64px;
+}
+.form-styling hr {
+    color:#e1e1e1;
+    margin-top: 40px;
+}
+.form-styling .password-styling .reset-link {
+    float: right;
+}
+.form-styling .button-styling {
+    margin-top: 40px;
+    float: right;
+}
+.form-styling .button-styling button {
+    color: #fff;
+    background-color: #776bff;
+    margin-left: 5px;
 }

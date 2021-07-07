@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="widh=device-width, initial-scale-1">
@@ -9,91 +9,78 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" type="text/css" href="/mockup1/style/main.css">
-
-        <!--Icon Links-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/6c2d106630.js" crossorigin="anonymous"></script>
-
+        <link rel="stylesheet" type="text/css" href="./style/main.css">
     </head>
 
-    <body style="background-color: #f6f6f6;">
-        <div class="space">
-            <nav class="navbar navbar-light">
-                <a class="nav-brand" href="#">
-                    <img src="/mockup1/images/nomadrental.png" alt="NomadRental">
-                </a>
-                
-                <button class="navbar-toggler ms-auto" type="button" data-toggle="collaspe" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </nav>
-        </div>
-        <div class="space">
-            <nav class="vnavbar">
-                <img src="/mockup1/images/JDPic.png" style="width: 20%; height: auto; padding-top: 30px; padding-bottom: 10px;" >
-                <h4>John Doe</h4>
-                <p>Premium Nomad</p>
-                <div style="padding-top: 25px; padding-bottom: 25px;">
-                    <button><span class="glyphicon glyphicon-inbox"></span> Bookings</button>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-light">
+                        <a class="nav-brand" href="#">
+                            <img src="./images/nomadrental.png" alt="NomadRental">
+                        </a>
+
+                        <a class="navbar-link" href="#">Choose a city</a>
+                        <button class="navbar-toggler ms-auto" type="button" data-toggle="collaspe" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+                    </nav>
                 </div>
-                
-                <section>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 sidebar">
+                    <img class="sidebar-image" src="./images/JDPic.png">
+                    <h5>John Doe</h5>
+                    <p class="para-styling">Premium Nomad</p>
+                    <button><i class="fas fa-inbox"></i> Bookings</button>
                     <ul>
-                        <li><a href="#"><i class="fas fa-bed"></i>  Refer and Earn</a></li>
+                      <li><a href="#"><i class="fas fa-bed"></i>  Refer and Earn</a></li>
                         <li><a href="#"><i class="fas fa-user-cog"></i> Account Settings</a></li>
                     </ul>
-                </section>
-                <section>
                     <p>SUPPORT</p>
                     <ul>
                         <li><a href="#"><i class="fa fa-life-ring"> </i> Contact Us</a></li>
                         <li><a href="#"><i class="fas fa-external-link-square-alt"></i> FAQ</a></li>
                     </ul>
-                </section>
-                <footer>
-                    <p><i class="fas fa-toggle-on"></i> Sign out</p>
-                </footer>
-            </nav>
+                    <footer>
+                        <p><i class="fas fa-toggle-on"></i> Sign out</p>
+                    </footer>
+                </div>
 
-            <article>
-                <h1>Bookings</h1>
-                <h4 style="color: #636363;">Your current upcoming stays</h4>
-                <p>Please update with the property if your travel plans should change or if you wish <br/>to make any changes to your stay.</p>
-                <a href="#"><i class="fas fa-chevron-right"></i> Learn more about our premium subscription</a>
-
-                <div class="container">
-                    <div style="float: left; width: 35%;">
-                        <img src="/mockup1/images/bookingPic.png" style="object-fit: cover;">
-                    </div>
-                    <div style="float: right; width: 45%;">
-                        <div style="padding-top: 30px;">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 booking-article">
+                    <h2>Bookings</h2>
+                    <h4 class="header-styling">Your current upcoming stays</h4>
+                    <p>Please update with the property if your travel plans should change or if you wish <br/>to make any changes to your stay.</p>
+                    <a href="#" class="link-spacing"><i class="fas fa-chevron-right"></i> Learn more about our premium subscription</a>
+                        
+                    <div class="row no-gutters article-styling">
+                        <div class="col">
+                            <img src="./images/bookingPic.png">
+                        </div>
+                        <div class="col info-styling">
                             <h4>The Green View</h4>
                             <p><i class="fas fa-check-circle"></i> Booking request received</p>
-                            <p style="color: #7d42fc;"><i class="fas fa-clock"></i> Awaiting confirmation from Hotel</p>
-                        </div>
-                        <div style="padding-top: 30px;">
+                            <p><i class="fas fa-clock"></i> Awaiting confirmation from Hotel</p>
+                            <hr class="solid line-styling">
                             <h4>Superior Premium</h4>
-                            <div class="column">
-                                <p><i class="far fa-calendar-check"></i> Check-in:</p>
-                                <h5>July 9th,2018</h5>
+                            <div class="row">
+                                <div class="col">
+                                    <p><i class="far fa-calendar-check"></i> Check-in:</p>
+                                    <h5>July 9th,2018</h5>
+                                </div>
+                                <div class="col">
+                                    <p><i class="fas fa-receipt"></i> Reference</p>
+                                    <h5>#UC311K</h5>
+                                </div>
                             </div>
-                            <div class="column">
-                                <p><i class="fas fa-receipt"></i> Reference</p>
-                                <h5>#UC311K</h5>
+                            <div class="bottom-styling">
+                                <a href="#"><i class="fas fa-star"></i> Rate your stay</a>
+                                <hr class="solid">
+                                <a href="#"><i class="fas fa-paper-plane"></i> Email the property</a>
                             </div>
-                        </div>
-                        <div class="box">
-                            <a href="#" style="color: #62cc35;"><i class="fas fa-star"></i> Rate your stay</a>
-                        </div>
-                        <div class="box">
-                            <a href="#" style="color: #8a8a8a;"><i class="fas fa-paper-plane"></i> Email the property</a>
                         </div>
                     </div>
                 </div>
-            </article>
+            </div>
         </div>
-        
+
+        <script src="https://kit.fontawesome.com/6c2d106630.js" crossorigin="anonymous"></script>
     </body>
 </html>

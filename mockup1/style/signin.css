@@ -1,0 +1,49 @@
+.col {
+    padding: 40px;
+}
+.col p {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.shade {
+    background-color: #f2f2f2;
+}
+.btn {
+    width: 100%;
+}
+.form-group {
+    padding-top: 7px;
+    padding-bottom: 20px;
+}
+#in-line{
+    width: 100%;
+}
+#in-line div{
+    width: 49%;
+    display: inline-block;
+}
+#right{
+    text-align: right;
+}
+.btn {
+    width: 100%;
+    background-color: #776bff;
+    color: #fff;
+    padding: 6px;
+    margin-bottom: 25px;
+}
+hr {
+    color: rgb(224, 224, 224);
+}
+.signin-space p {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+a {
+    color: rgba(0, 110, 255, 0.808);
+    text-decoration: none;
+}
+i {
+    padding-right: 3px;
+}
